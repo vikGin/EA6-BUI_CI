@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="app_tests.TestGame-20231217152353" tests="4" file="app_tests.py" time="0.006" timestamp="2023-12-17T15:23:54" failures="0" errors="0" skipped="0">
-	<testcase classname="app_tests.TestGame" name="test_game_instance_creation" time="0.001" timestamp="2023-12-17T15:23:54"/>
-	<testcase classname="app_tests.TestGame" name="test_run_game" time="0.003" timestamp="2023-12-17T15:23:54"/>
-	<testcase classname="app_tests.TestGame" name="test_run_round" time="0.001" timestamp="2023-12-17T15:23:54"/>
-	<testcase classname="app_tests.TestGame" name="test_run_round_computer" time="0.001" timestamp="2023-12-17T15:23:54"/>
-</testsuite>

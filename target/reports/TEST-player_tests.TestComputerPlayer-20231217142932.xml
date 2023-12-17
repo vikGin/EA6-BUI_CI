@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="player_tests.TestComputerPlayer-20231217142932" tests="1" file="player_tests.py" time="0.001" timestamp="2023-12-17T14:29:32" failures="0" errors="0" skipped="0">
-	<testcase classname="player_tests.TestComputerPlayer" name="test_check_diagonals" time="0.001" timestamp="2023-12-17T14:29:32"/>
-</testsuite>

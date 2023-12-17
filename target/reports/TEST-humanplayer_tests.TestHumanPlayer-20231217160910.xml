@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="humanplayer_tests.TestHumanPlayer-20231217160910" tests="2" file="humanplayer_tests.py" time="0.009" timestamp="2023-12-17T16:09:11" failures="0" errors="0" skipped="0">
-	<testcase classname="humanplayer_tests.TestHumanPlayer" name="test_make_move_invalid_input" time="0.008" timestamp="2023-12-17T16:09:11"/>
-	<testcase classname="humanplayer_tests.TestHumanPlayer" name="test_make_move_valid_input" time="0.001" timestamp="2023-12-17T16:09:11"/>
-</testsuite>

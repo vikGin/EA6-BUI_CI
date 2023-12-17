@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="board_tests.BoardTests-20231217153442" tests="5" file="board_tests.py" time="0.005" timestamp="2023-12-17T15:34:43" failures="0" errors="0" skipped="0">
-	<testcase classname="board_tests.BoardTests" name="test_check_winner_column" time="0.001" timestamp="2023-12-17T15:34:42"/>
-	<testcase classname="board_tests.BoardTests" name="test_check_winner_diagonal" time="0.001" timestamp="2023-12-17T15:34:42"/>
-	<testcase classname="board_tests.BoardTests" name="test_check_winner_row" time="0.001" timestamp="2023-12-17T15:34:42"/>
-	<testcase classname="board_tests.BoardTests" name="test_check_winner_tie" time="0.001" timestamp="2023-12-17T15:34:42"/>
-	<testcase classname="board_tests.BoardTests" name="test_is_empty" time="0.001" timestamp="2023-12-17T15:34:43"/>
-</testsuite>

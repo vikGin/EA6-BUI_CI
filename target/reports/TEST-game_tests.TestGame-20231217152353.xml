@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="game_tests.TestGame-20231217152353" tests="2" file="game_tests.py" time="0.005" timestamp="2023-12-17T15:23:54" failures="0" errors="0" skipped="0">
-	<testcase classname="game_tests.TestGame" name="test_run_game" time="0.002" timestamp="2023-12-17T15:23:54"/>
-	<testcase classname="game_tests.TestGame" name="test_run_round" time="0.003" timestamp="2023-12-17T15:23:54"/>
-</testsuite>
