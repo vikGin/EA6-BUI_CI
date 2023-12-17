@@ -68,7 +68,7 @@ class TestComputerPlayer(unittest.TestCase):
                                 [" ", "X", "O"],
                                 ["O", "X", "O"]]
         self.player.make_fallback_move(self.board)
-        self.assertEqual(self.board.game_grid[1][0], "Fail")
+        self.assertEqual(self.board.game_grid[1][0], "X")
 
 if __name__ == '__main__':
     unittest.main()
