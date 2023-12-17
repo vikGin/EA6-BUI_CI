@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="game_tests.TestGame-20231217143508" tests="2" file="game_tests.py" time="0.048" timestamp="2023-12-17T14:35:09" failures="0" errors="1" skipped="0">
+	<testcase classname="game_tests.TestGame" name="test_run_game" time="0.034" timestamp="2023-12-17T14:35:09"/>
+	<testcase classname="game_tests.TestGame" name="test_run_round" time="0.014" timestamp="2023-12-17T14:35:09">
+		<error type="EOFError" message="EOF when reading a line"><![CDATA[Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 57, in testPartExecutor
+    yield
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 623, in run
+    self._callTestMethod(testMethod)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 579, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\src\unittest\python\game_tests.py", line 19, in test_run_round
+    game.run_round(game.player)
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\src\main\python\game.py", line 47, in run_round
+    player.make_move(self.board, self.round)
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\src\main\python\player.py", line 69, in make_move
+    move = input()
+EOFError: EOF when reading a line
+]]></error>
+	</testcase>
+</testsuite>

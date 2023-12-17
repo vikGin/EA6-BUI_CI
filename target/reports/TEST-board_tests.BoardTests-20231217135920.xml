@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="board_tests.BoardTests-20231217135920" tests="6" file="board_tests.py" time="0.029" timestamp="2023-12-17T13:59:20" failures="0" errors="1" skipped="0">
+	<testcase classname="board_tests.BoardTests" name="test_check_winner_column" time="0.000" timestamp="2023-12-17T13:59:20"/>
+	<testcase classname="board_tests.BoardTests" name="test_check_winner_diagonal" time="0.000" timestamp="2023-12-17T13:59:20"/>
+	<testcase classname="board_tests.BoardTests" name="test_check_winner_row" time="0.000" timestamp="2023-12-17T13:59:20"/>
+	<testcase classname="board_tests.BoardTests" name="test_check_winner_tie" time="0.000" timestamp="2023-12-17T13:59:20"/>
+	<testcase classname="board_tests.BoardTests" name="test_is_empty" time="0.000" timestamp="2023-12-17T13:59:20"/>
+	<testcase classname="board_tests.BoardTests" name="test_print_board" time="0.029" timestamp="2023-12-17T13:59:20">
+		<error type="ArgumentError" message="obj '&lt;MagicMock name='print' id='2708584402000'&gt;' is not registered"><![CDATA[Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 57, in testPartExecutor
+    yield
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 623, in run
+    self._callTestMethod(testMethod)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 579, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\src\unittest\python\board_tests.py", line 21, in test_print_board
+    verify(print_mock).assert_called_with("-------------")
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\target\venv\build\cpython-3.11.7.final.0\Lib\site-packages\mockito\mockito.py", line 139, in verify
+    theMock = _get_mock_or_raise(obj)
+      ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\target\venv\build\cpython-3.11.7.final.0\Lib\site-packages\mockito\mockito.py", line 104, in _get_mock_or_raise
+    raise ArgumentError("obj '%s' is not registered" % obj)
+    ^^^^^^^^^^^^^^^^^
+mockito.mockito.ArgumentError: obj '<MagicMock name='print' id='2708584402000'>' is not registered
+]]></error>
+	</testcase>
+</testsuite>

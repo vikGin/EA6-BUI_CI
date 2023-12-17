@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app_tests.TestGame-20231217142932" tests="3" file="app_tests.py" time="0.013" timestamp="2023-12-17T14:29:32" failures="1" errors="0" skipped="0">
+	<testcase classname="app_tests.TestGame" name="test_game_instance_creation" time="0.001" timestamp="2023-12-17T14:29:32"/>
+	<testcase classname="app_tests.TestGame" name="test_run_game" time="0.002" timestamp="2023-12-17T14:29:32"/>
+	<testcase classname="app_tests.TestGame" name="test_main" time="0.010" timestamp="2023-12-17T14:29:32">
+		<failure type="AssertionError" message="Expected 'run_game' to have been called once. Called 0 times."><![CDATA[Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 57, in testPartExecutor
+    yield
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 623, in run
+    self._callTestMethod(testMethod)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 579, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\mock.py", line 1375, in patched
+    return func(*newargs, **newkeywargs)
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\src\unittest\python\app_tests.py", line 20, in test_main
+    mock_run_game.assert_called_once()
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\mock.py", line 918, in assert_called_once
+    raise AssertionError(msg)
+    ^^^^^^^^^^^^^^^^^
+AssertionError: Expected 'run_game' to have been called once. Called 0 times.
+]]></failure>
+	</testcase>
+</testsuite>

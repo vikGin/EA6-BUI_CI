@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app_tests.TestGame-20231217142627" tests="2" file="app_tests.py" time="0.002" timestamp="2023-12-17T14:26:28" failures="0" errors="0" skipped="0">
+	<testcase classname="app_tests.TestGame" name="test_game_instance_creation" time="0.000" timestamp="2023-12-17T14:26:28"/>
+	<testcase classname="app_tests.TestGame" name="test_run_game" time="0.002" timestamp="2023-12-17T14:26:28"/>
+</testsuite>

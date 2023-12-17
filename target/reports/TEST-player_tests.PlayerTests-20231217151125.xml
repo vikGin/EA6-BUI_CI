@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="player_tests.PlayerTests-20231217151125" tests="3" file="player_tests.py" time="0.006" timestamp="2023-12-17T15:11:26" failures="0" errors="0" skipped="0">
+	<testcase classname="player_tests.PlayerTests" name="test_init" time="0.002" timestamp="2023-12-17T15:11:26"/>
+	<testcase classname="player_tests.PlayerTests" name="test_make_move" time="0.002" timestamp="2023-12-17T15:11:26"/>
+	<testcase classname="player_tests.PlayerTests" name="test_set_opponent" time="0.002" timestamp="2023-12-17T15:11:26"/>
+</testsuite>
