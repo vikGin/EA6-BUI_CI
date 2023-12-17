@@ -1,10 +1,39 @@
 
 Running tests...
 ----------------------------------------------------------------------
-..........................
+.................F........
+======================================================================
+FAIL [0.011s]: test_make_fallback_move_side_available (computerplayer_tests.TestComputerPlayer.test_make_fallback_move_side_available)
 ----------------------------------------------------------------------
-Ran 26 tests in 0.407s
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 57, in testPartExecutor
+    yield
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 623, in run
+    self._callTestMethod(testMethod)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 579, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^^^
+  File "c:\users\pavik\code\ea6 bui_ci\src\unittest\python\computerplayer_tests.py", line 71, in test_make_fallback_move_side_available
+    self.assertEqual(self.board.game_grid[1][0], " ")
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 873, in assertEqual
+    assertion_func(first, second, msg=msg)
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 1253, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\unittest\case.py", line 703, in fail
+    raise self.failureException(msg)
+    ^^^^^^^^^^^^^^^^^
+AssertionError: 'X' != ' '
+- X
++  
 
-OK
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.344s
+
+FAILED (failures=1)
 
 Generating XML reports...
